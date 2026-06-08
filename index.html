@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ═══════════════════════════════════════════════════
+         SEO & Meta — change these to match your brand
+    ═══════════════════════════════════════════════════ -->
+    <title>VisionCraft — Eyewear Redefined</title>
+    <meta
+      name="description"
+      content="Discover VisionCraft — premium eyewear crafted for those who see the world differently. Scroll to experience the difference."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VisionCraft — Eyewear Redefined" />
+    <meta
+      property="og:description"
+      content="Premium eyewear crafted for those who see the world differently."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Font: Inter (clean, modern, Apple-esque) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+
+    <!-- ─────────────────────────────────────────────────
+         NAV BAR
+    ───────────────────────────────────────────────── -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-inner">
+        <!-- ★ Change brand name here -->
+        <a href="#" class="nav-logo">VISION<span>CRAFT</span></a>
+        <ul class="nav-links">
+          <li><a href="#story">Story</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#cta-section">Shop</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ─────────────────────────────────────────────────
+         SCROLL SEQUENCE SECTION
+         The canvas renders the frame sequence.
+         The section is tall to give scroll room.
+    ───────────────────────────────────────────────── -->
+    <section class="sequence-section" id="sequence-section">
+      <div class="sticky-container">
+
+        <!-- Animated canvas -->
+        <canvas id="hero-canvas"></canvas>
+
+        <!-- Overlay text that fades as scroll begins -->
+        <div class="hero-overlay" id="hero-overlay">
+          <div class="hero-badge">NEW COLLECTION 2025</div>
+
+          <!-- ★ Change main headline here -->
+          <h1 class="hero-headline">
+            See the World<br />
+            <span class="gradient-text">Differently.</span>
+          </h1>
+
+          <!-- ★ Change sub-headline here -->
+          <p class="hero-sub">
+            Scroll to discover the art of wearing light.
+          </p>
+
+          <div class="scroll-indicator" id="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+          </div>
+        </div>
+
+        <!-- Mid-scroll label that appears halfway through -->
+        <div class="mid-label" id="mid-label">
+          <p>Precision-crafted frames.</p>
+        </div>
+
+        <!-- Loading bar -->
+        <div class="loading-screen" id="loading-screen">
+          <div class="loading-logo">VISION<span>CRAFT</span></div>
+          <div class="loading-bar-track">
+            <div class="loading-bar-fill" id="loading-bar-fill"></div>
+          </div>
+          <p class="loading-text" id="loading-text">Loading experience… 0%</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────
+         CTA / PRODUCT INFO SECTION
+    ───────────────────────────────────────────────── -->
+    <section class="cta-section" id="cta-section">
+      <div class="cta-inner">
+
+        <div class="cta-eyebrow">The Signature Collection</div>
+
+        <!-- ★ Change product headline here -->
+        <h2 class="cta-headline">
+          Frames That Tell<br />
+          <em>Your</em> Story.
+        </h2>
+
+        <!-- ★ Change product description here -->
+        <p class="cta-body">
+          Hand-finished titanium frames. Ultra-light, ultra-durable.
+          Engineered for those who demand perfection in every detail —
+          from morning coffee to midnight skylines.
+        </p>
+
+        <div class="cta-features">
+          <div class="feature-pill">✦ Titanium Frame</div>
+          <div class="feature-pill">✦ Anti-Reflective Lens</div>
+          <div class="feature-pill">✦ 2-Year Warranty</div>
+        </div>
+
+        <div class="cta-actions">
+          <!-- ★ Change CTA button text & link here -->
+          <a href="#" class="btn-primary" id="shop-btn">Shop the Collection</a>
+          <a href="#" class="btn-ghost" id="learn-btn">Learn More →</a>
+        </div>
+
+      </div>
+
+      <!-- Decorative ambient glow -->
+      <div class="cta-glow"></div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────
+         FOOTER
+    ───────────────────────────────────────────────── -->
+    <footer class="site-footer">
+      <!-- ★ Change footer brand / copyright here -->
+      <p>© 2025 VisionCraft. Crafted with precision.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
