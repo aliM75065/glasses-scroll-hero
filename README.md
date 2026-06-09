@@ -3,7 +3,7 @@
 
 
 > Scroll-driven hero section for an eyewear brand, built with Google Flow, Google Antigravity, and Vite.
-
+![Hero preview](./hero-preview.png)
 
 
 \---
