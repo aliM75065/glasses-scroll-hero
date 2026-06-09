@@ -1,5 +1,5 @@
 \# Glasses Scroll Hero – AI‑Powered Eyewear Landing Section
-
+> Built as a product/UX experiment to see how AI tools can speed up shipping a real scroll-driven hero section on a live store.
 
 
 > Scroll-driven hero section for an eyewear brand, built with Google Flow, Google Antigravity, and Vite.
@@ -9,7 +9,7 @@
 \---
 
 
-
+> این پروژه به‌عنوان یک تجربه‌ی پروداکت/UX ساخته شده تا ببینم چطور می‌شود با ابزارهای هوش مصنوعی، یک سکشن هیروی واقعی را سریع به نسخه‌ی قابل استقرار روی سایت تبدیل کرد.
 \## 🇮🇷 معرفی پروژه (فارسی)
 
 
